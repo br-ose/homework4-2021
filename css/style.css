@@ -8,13 +8,15 @@ Make sure to learn what the starter code does!!
 */
 
 /*STARTER CODE - DO NOT CHANGE*/
-main{
+main
+{
   margin-bottom: 100px;
   font-family: "Andika",sans-serif;
 }
 
 
-caption{
+caption
+{
   margin:5px 0px;
 }
 
@@ -36,7 +38,6 @@ body{
   background-position: center;
   background-repeat:no-repeat;
   background-size:cover;
-
   /*Req 1*/
 }
 
@@ -70,7 +71,6 @@ table
     margin-right:auto;
     border-spacing:0;
     overflow:hidden;
-
 }
 tr:nth-child(even){
   background-color:#d1d1d1;
@@ -78,11 +78,18 @@ tr:nth-child(even){
 tr:nth-child(odd){
   background-color:transparent;
 }
+tr:hover
+{
+  opacity:.25;
+}
+
 /*Req 5*/
 /*Add selector and rule here*/
-*:focus{
+*:focus
+{
 border:3px dashed #417243;
 }
+
 
 
 td{
